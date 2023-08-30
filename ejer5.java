@@ -5,6 +5,7 @@ public class ejer5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
+		System.out.println("Ingrese DOS numeros para chequear si son anagramas. \n(NOTA: Este programa solamente acepta DOS numeros. Si lo intenta con mas de dos el programa solo comparará los primeros dos numeros)");
 		String linea = scanner.nextLine();
 		String[] array = linea.split(" ");
 		String elemento1 = array[0];
